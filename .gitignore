@@ -1,0 +1,25 @@
+# History & backup files
+__history__/
+*~
+*.bak
+*.tmp
+*.autosave
+
+# Compiler / build outputs
+*.hex
+*.lst
+*.sym
+*.tre
+*.err
+*.esym
+*.STA
+
+# IDE / project files
+*.ccspjt
+*.workspace
+*.pdsprj
+Project Backups/
+
+# OS files
+.DS_Store
+Thumbs.db
