@@ -1,0 +1,57 @@
+# Smart Air Purifier with Dual Activated Carbon Filters
+
+## 📌 Project Overview
+Air pollution inside households is a growing concern, especially in urban environments. Commercial air purifiers are often expensive and require frequent manual filter replacement.  
+This project presents a **low-cost smart air purifier** that uses **activated carbon filters** and an **air quality sensor** to automatically maintain effective air purification.
+
+The system intelligently switches between a **main filter** and a **sub (backup) filter** when the primary filter becomes saturated, ensuring continuous air purification with minimal user intervention.
+
+---
+
+## 🎯 Objectives
+- Reduce indoor air pollution using **activated carbon filtration**
+- Provide a **low-cost solution** suitable for household use
+- Automatically detect filter saturation using **air quality sensing**
+- Eliminate manual filter replacement through **automatic filter switching**
+
+---
+
+## ⚙️ Working Principle
+1. A **propeller (fan)** draws polluted air into the system.
+2. Air passes through the **main activated carbon filter**, removing pollutants.
+3. An **air quality sensor** continuously monitors the quality of the filtered air.
+4. When the air quality drops below a predefined threshold, the system detects **filter saturation**.
+5. A **motor-driven mechanical mechanism** lowers the saturated main filter and lifts the **sub filter** into operation.
+6. Air purification continues seamlessly using the sub filter until maintenance is performed.
+
+---
+
+## 🧩 Key Features
+- Dual activated carbon filters (main + sub)
+- Automatic filter switching mechanism
+- Real-time air quality monitoring
+- Low power consumption
+- Cost-effective and user-friendly design
+- Suitable for continuous indoor use
+
+---
+
+## 🛠️ Hardware Components Used
+- Activated Carbon Filters (2 units)
+- Air Quality Sensor (e.g., MQ series)
+- DC Motor / Servo Motor (for filter switching)
+- Propeller / Fan
+- Microcontroller
+- Power Supply
+
+---
+
+## 💻 Software Details
+- Language: C
+- Platform: Embedded system / Microcontroller
+- Sensor data processing for air quality evaluation
+- Motor control logic for automatic filter replacement
+
+---
+
+## 📁 Project Structure
